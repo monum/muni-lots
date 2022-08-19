@@ -169,7 +169,7 @@
             map.on('click', 'csvData', function (e) {
               var coordinates = e.features[0].geometry.coordinates.slice();
 
-              var description = '<h3>Municipal Lots in ' + e.features[0].properties.Neighborhood + '</h3>' + '<h4>' + '<strong>' + 'Address: ' + '</strong>' + e.features[0].properties.Address + '</h4>';
+              var description = '<h3>Municipal Lot in ' + e.features[0].properties.Neighborhood + '</h3>' + '<h4>' + '<strong>' + 'Address: ' + '</strong>' + e.features[0].properties.Address + '</h4>';
 
               // Ensure that if the map is zoomed out such that multiple
               // copies of the feature are visible, the popup appears
